@@ -30,7 +30,7 @@ class Flyrics:
     """
     from flyrics import Flyrics\n
     lyric = Flyrics()\n
-    lyricsList = lyric.fetch("https://open.spotify.com/album/xxxxxxxxxx")
+    lyricsList = lyric.fetch("https://tidal.com/browse/track/378227300")
     """
     def fetch(self, url):
         for module in MODULES:
